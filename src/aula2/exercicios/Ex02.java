@@ -16,5 +16,6 @@ public class Ex02 {
 
         System.out.println("A média dos números é: " + (n1 + n2 + n3)/3);
 
+        num.close();
     }
 }

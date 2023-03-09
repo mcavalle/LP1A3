@@ -6,8 +6,30 @@ public class Ex04 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite o valor da compra: ");
+        System.out.println("Digite o código identificador: ");
         String identificador = sc.nextLine();
         
+        boolean valido = false;
+
+        if(identificador.startsWith("BR")){
+            valido = true;
+        }
+
+        if(identificador.endsWith("X")){
+            valido = true;
+        }
+
+        if(identificador.length() == 7){
+            valido = true;
+        }
+
+        if (valido == true) {
+            System.out.println("Código identificador válido");
+        } else {
+            System.out.println("Código identificador inválido");
+        }
+
+        sc.close();
     }
+
 }

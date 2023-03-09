@@ -13,6 +13,7 @@ public class Ex01 {
 
         System.out.println((numeroDigitado - 1) + " " + (numeroDigitado) + " " + (numeroDigitado + 1));
 
+        num.close();
     }
 
 

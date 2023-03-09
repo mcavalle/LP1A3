@@ -20,5 +20,6 @@ public class Ex03 {
             System.out.println("Insira um valor");
         }
         
+        sc.close();
     }
 }
