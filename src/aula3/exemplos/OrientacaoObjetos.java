@@ -1,6 +1,23 @@
 package aula3.exemplos;
 
 public class OrientacaoObjetos {
+
+     // Orientação a objetos
+    // analise -> projeto -> implementacao -> testes -> implantacao
+
+    // Classe
+    // Estrutura que abstrai um conceito que precisa ser representado
+
+    // Objeto
+    // Instância de uma classe
+    // A partir de uma classe posso criar n objetos 
+
+    // Classe = Atributos e Métodos
+    // Atributos definem estado de um objeto
+    // Métodos definem comportamento de um objeto
+
+    // Crie um programa que calcula a area e perimetro de dois
+    // quadrados
     
     public static void main(String[] args) {
 
