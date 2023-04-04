@@ -10,6 +10,7 @@ public class Gerente extends Funcionario {
         this.bonus = bonus;
     }
 
+    @Override
     public double getSalario(){
         return super.getSalario() + bonus;
     }

@@ -2,8 +2,6 @@ package aula5.exemplos;
 
 import java.time.LocalDate;
 
-import java.time.LocalDate;
-
 public class Funcionario {
     private String nome;
     private double salario;
