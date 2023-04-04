@@ -38,3 +38,4 @@ public abstract class Conta {
     public boolean isBloqueada() {
         return bloqueada;
     }
+}
